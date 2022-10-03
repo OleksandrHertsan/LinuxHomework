@@ -1,0 +1,21 @@
+   0 cd ..
+   1 cd /home
+   2 mkdir humans
+   3 св юю
+   4 cd ..
+   5 cd /tmp
+   6 touch adam.txt
+   7 touch evA.txt
+   8 ls
+   9 cp /tmp/adam.txt /home/humans
+  10 cp /tmp/evA.txt /opt/eve.txt
+  11 cd ..
+  12 cp /opt/eve.txt /home/humans/
+  13 cd /home
+  14 cd humans
+  15 ls
+  16 cd ..
+  17 ls
+  18 cd
+  19 ls
+  20 history > history.txt
