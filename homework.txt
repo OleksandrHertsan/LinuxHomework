@@ -1,0 +1,17 @@
+   0 nano sleeper.sh
+#!/bin/bash
+for data in {1..10}
+do
+date +"%H:%M:%S"
+ps -ef | wc -l
+sleep 2
+done
+cat /proc/cpuinfo > /tmp/linux.txt
+cat /etc/os-release | head -l
+cat /etc/os-release | head -1 | awk '{print $1}' | sed 's/NAME="//' >> /tmp/lin>
+for data in {50..100}
+do
+touch /tmp/$data.txt
+done
+   1 nano sleeper.sh 
+   2 history > homework.txt
